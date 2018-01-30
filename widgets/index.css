@@ -1,0 +1,17 @@
+.clock {
+    background: orchid;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.clock p {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .clock h1 {
+    display: flex;
+    align-items: center;
+} */
