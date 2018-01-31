@@ -10,8 +10,25 @@
     justify-content: space-between;
 }
 
-
-/* .clock h1 {
+.tab-title {
     display: flex;
-    align-items: center;
-} */
+    justify-content: space-between;
+}
+
+.makeBold {
+    font-weight: 700;
+}
+
+.tab-title>li {
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.tab-title>li:hover {
+    background-color: black;
+    color: orange;
+}

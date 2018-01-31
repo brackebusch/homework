@@ -6,7 +6,7 @@ import Weather from './weather';
 import Autocomplete from './autocomplete';
 
 
-const headings = [
+const tabArr = [
   {title: 'doe', content: "a female deer"},
   {title: 'rae', content: "drop of golden sun"},
   {title: 'me', content: "a name I call myself"}  
@@ -22,9 +22,9 @@ class Root extends React.Component {
       <div>
         <h1>This is in the root</h1>
         <Clock />
-        <Tabs headings={headings}/>
+        <Tabs tabArr={tabArr}/>
         <Weather />
-        <AutoComplete names={names}/>
+        <Autocomplete names={names}/>
       </div>
     )
   }
